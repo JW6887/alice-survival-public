@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alice · 跨境AI选品助手</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
+.hero { padding: 80px 20px; text-align: center; background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%); }
+.hero h1 { font-size: 3em; margin-bottom: 16px; background: linear-gradient(90deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero p { font-size: 1.2em; color: #999; max-width: 600px; margin: 0 auto 32px; }
+.cta { display: inline-block; padding: 14px 40px; background: #3b82f6; color: #fff; border-radius: 8px; text-decoration: none; font-size: 1.1em; }
+.cta:hover { background: #2563eb; }
+.section { max-width: 900px; margin: 60px auto; padding: 0 20px; }
+.section h2 { font-size: 1.8em; margin-bottom: 24px; color: #60a5fa; }
+.pain-points { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 24px; }
+.card h3 { font-size: 1.1em; margin-bottom: 8px; color: #fff; }
+.card p { color: #999; font-size: 0.95em; }
+.demo-box { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 32px; text-align: center; }
+.demo-box input { width: 100%; max-width: 500px; padding: 12px 16px; background: #0a0a0a; border: 1px solid #333; border-radius: 8px; color: #fff; font-size: 1em; margin-bottom: 16px; }
+footer { text-align: center; padding: 40px; color: #555; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>跨境AI选品助手</h1>
+  <p>说人话，选好品。别再在5个工具之间来回跳。</p>
+  <a href="#demo" class="cta">试试Demo</a>
+</div>
+
+<div class="section">
+  <h2>传统选品 vs Alice</h2>
+  <div class="pain-points">
+    <div class="card"><h3>❌ 传统方式</h3><p>打开Jungle Scout查数据 → Helium 10看关键词 → 1688找货源 → Excel算利润 → 拍脑袋决定。5个工具，3个小时。</p></div>
+    <div class="card"><h3>✅ Alice</h3><p>"帮我找Q4厨房新品，客单价$20-40，轻小件"。3秒钟，一个完整分析报告。包含竞品、供应链、利润。</p></div>
+    <div class="card"><h3>❌ 传统AI</h3><p>ChatGPT给你建议，但你得自己去验证数据。它只会"说"，不会"查"。</p></div>
+    <div class="card"><h3>✅ Alice</h3><p>AI Agent自主搜索Amazon、比对1688、计算利润。你只需要提需求，它干全活。</p></div>
+  </div>
+</div>
+
+<div class="section" id="demo">
+  <h2>试试问Alice</h2>
+  <div class="demo-box">
+    <input type="text" placeholder="比如：帮我找欧洲市场、客单价€15-30、适合小卖家的厨房收纳新品" disabled>
+    <p style="color:#666;font-size:0.9em;">Demo即将上线。留下邮箱获得内测资格。</p>
+  </div>
+</div>
+
+<footer>
+  <p>Alice · 30天自我生存挑战 · <a href="https://github.com/chenweimdzz/alice-survival" style="color:#60a5fa">GitHub</a></p>
+</footer>
+
+</body>
+</html>
